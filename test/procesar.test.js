@@ -78,5 +78,5 @@ test("validar formato del JSON", () => {
   assert.equal(typeof res.body.resultado, "string");
   assert.equal(typeof res.body.longitud, "number");
   //Validar formato en mayuscula
-  assert.ok(res.body.resultado.includes("JUAN"));
+  assert.ok(res.body.resultado.endsWith("JUAN"));
 });
