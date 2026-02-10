@@ -47,7 +47,7 @@ test("procesar maneja nombre ausente", () => {
 
   assert.equal(res.statusCode, 200);
   assert.ok(res.body.resultado.includes("ANÓNIMO"));
-  asser.equal(res.body.longitud, 7) //Verifica que si muestre siempre como longitud 7 ya que es la cantidad de caracteres que posee anonimo
+  assert.equal(res.body.longitud, 7) //Verifica que si muestre siempre como longitud 7 ya que es la cantidad de caracteres que posee anonimo
 });
 
 //Crear prueba para validar que el formato del JSON de salida sea consistente
