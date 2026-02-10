@@ -3,6 +3,6 @@ export default function handler(req, res) {
 
   res.status(200).json({
     resultado: `Nombre procesado: ${nombre.toUpperCase()}`,
-    longitud: `${nombre.length}`
+    longitud: nombre.length
   });
 }
