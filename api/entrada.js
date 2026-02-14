@@ -1,3 +1,4 @@
+//comentario de prueba para commit pequeño
 export default async function handler(req, res) {
   try {
     const nombre = req.query.nombre || "anónimo";
